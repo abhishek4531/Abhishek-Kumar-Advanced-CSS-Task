@@ -1,0 +1,96 @@
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(226, 216, 216);
+}
+menu{
+    display: flex;
+    justify-content: space-around;
+}
+menu div{
+    margin-right: 30px;
+}
+menu button{
+    font-size: 20px;
+    border: none;
+    color: blue;
+    padding: 10px;
+    background-color: rgb(226, 216, 216);
+}
+menu button:hover{
+    background-color: black;
+    color: white;
+}
+menu, div{
+    padding-left: 30px;
+}
+.banner{
+    height: 200px;
+    background-color: rgb(48, 135, 169);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+.banner h1{
+    color: white;
+    font-family: Arial;
+}
+section{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    padding: 20px;
+}
+.sec1, .sec2{
+    height: 400px;
+}
+.sec1{
+    display: flex;
+    align-items: center;
+}
+.sec121{
+    height: 350px;
+    width: 300px;
+    margin-left: -100px;
+    background-color: rgb(224, 115, 224);
+    margin-top: 25px;
+}
+.sec13{
+    height: 400px;
+    width: 600px;
+    background-color: yellow;
+}
+.sec3{
+    height: 250px;
+    background-color: tomato;
+}
+.sec4{
+    height: 140px;
+    margin-top: 10px;
+    background-color: greenyellow;
+}
+form{
+    padding-top: 20px;
+}
+input, select{
+    background-color: tomato;
+    padding: 10px;
+    border-color: white;
+    color: white;
+    width: 200px;
+    margin-top: 5px;
+}
+.nav2{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(56, 56, 154);
+    padding: 10px;
+}
+.menu2 button{
+    background-color: rgb(56, 56, 154);
+    color: white;
+    padding: 0px;
+}
+.menu2 div{
+    color: white;
+}
